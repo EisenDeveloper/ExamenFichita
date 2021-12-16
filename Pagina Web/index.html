@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RegistrApp</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <!-- Estilo CSS -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+  <!--Window.onlodad-->
+  <script>
+    function load() {
+      alert("!Pagina Cargada Correctamente!");
+    }
+    window.onload = load;
+  </script>
+
+<body>
+  <div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+  </div>
+
+
+  <div class="container">
+    <!-- Navegacion -->
+    <nav class="nav-main">
+      <!-- Brand -->
+      <img src="img/LogoDuoc.png" alt="logo Duoc" class="nav-brand">
+      <!-- Nav Derecho -->
+      <ul class="nav-menu">
+        <li>
+          <a href="#">Inicio</a>
+        </li>
+        <li>
+          <a href="#">Apps</a>
+        </li>
+        <li>
+          <a href="#">Acerca de </a>
+        </li>
+        <li>
+          <a href="#">Nosotros</a>
+        </li>
+        <li>
+          <a href="#">Registrarse</a>
+        </li>
+        <li>
+          <a href="#">Iniciar Sesion</a>
+        </li>
+      </ul>
+
+      <!-- Search o Buscador -->
+      <ul class="nav-menu-right">
+        <li>
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+
+    <!-- Contenedor -->
+    <header class="showcase">
+      <section>
+      <div>
+        <img src="img/duoc-uc-vina-del-mar.jpg" alt="Sede Duoc" />
+      </div>
+      <h2>RegistrApp</h2>
+      <p>Nuestra RegistrAPP es un aplicación móvil, que permite a los alumnos de Duoc UC tomar su asistencia
+        al llegar al aula de clases escaneando un Código QR que despliega el profesor, también permite
+        revisar al alumno sus notas y porcentaje de asistencias en sus diferentes ramos.</p>
+      <a href="#" class="btn">
+        Iniciar Sesion <i class="fas fa-chevron-right"></i>
+        
+      </a>
+    </section>
+    </header>
+    
+
+    <!-- CARDS -->
+    <div class="cards">
+      <div>
+        <img src="img/2.jpg" alt="Inicio de la Aplicacion" />
+        <h3>Inicio de la Aplicacion</h3>
+        <p>Inicio de la Aplicacion, acá es donde se rellenan los datos del alumno o profesor
+        </p>
+        <a href="#">Leer Más<i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/3.jpg" alt="Qr" />
+        <h3>Qr</h3>
+        <p>Escanea el Qr para la Asistencia
+        </p>
+        <a href="#">Leer Más <i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <div>
+        <img src="img/4.jpg" alt="Restablecer Contraseña" />
+        <h3>Restablecer Contraseña</h3>
+        <p>Si el Alumno se le olvida la contraseña coloca el usuario
+        </p>
+        <a href="#">Leer Más<i class="fas fa-angle-double-right"></i></a>
+      </div>
+    </div>
+
+    <!--QR-->
+    <div id="qrcode" class="qrcode">
+			<img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1-422TrG-RyExofBJpt17yc_2Yor0TZyc%2Fview%3Fusp%3Dsharing&s=4&e=l" width="175px" height="180px" alt="Generador de Códigos QR Codes"/>
+			<br/>
+			<a href="https://drive.google.com/file/d/1-422TrG-RyExofBJpt17yc_2Yor0TZyc/view?usp=sharing" target="_blank" id"qrgenerator"></a>
+    </div>
+    <div class="texto-descarga">
+      <a href="Apk/Registraap.apk" class="btn" download="Registraap.apk">Descargar Ahora</a>
+    </div>
+
+    <!-- Follow -->
+    <section class="social">
+      <p>Sigue a RegistrApp</p>
+    </section>
+  </div>
+
+  <div class="links">
+    <a href="">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href="">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>RegistrApp Copyright</h3>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
